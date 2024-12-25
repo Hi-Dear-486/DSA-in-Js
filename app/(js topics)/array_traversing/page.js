@@ -2,6 +2,18 @@
 const ArrayTraversing = () => {
   const array = [10, 20, 30, 40, 50];
 
+  //   Multidimensional Arrays
+  const matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+  ];
+
+  for (const element of matrix) {
+    for (const value of element) {
+      console.log("🚀 ~ ArrayTraversing ~ value:", value);
+    }
+  }
   for (const element of array) {
     console.log("🚀 ~ ArrayTraversing ~ element:", element);
   }
